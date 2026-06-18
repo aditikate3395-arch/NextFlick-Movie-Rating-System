@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>{{ movie[0] }}</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+{% if movie[4] %}
+    <img src="{{ movie[4] }}"
+         alt="{{ movie[0] }}"
+         class="movie-poster">
+{% endif %}
+
+<body>
+
+<div class="card">
+
+    <h1>🎬 {{ movie[0] }}</h1>
+
+    <p>⭐ Average Rating: {{ movie[1] }}</p>
+
+    <p>📝 Total Ratings: {{ movie[2] }}</p>
+
+    <p>🎭 Genre: {{ movie[3] }}</p>
+
+</div>
+
+<div class="card">
+
+    <h2>All Ratings</h2>
+
+    {% for rating in ratings %}
+
+        <p>⭐ {{ rating[0] }}</p>
+
+    {% endfor %}
+
+</div>
+
+<div class="card">
+
+    <a href="/rate">⬅ Back to NextFlick</a>
+
+</div>
+
+</body>
+
+</html>
