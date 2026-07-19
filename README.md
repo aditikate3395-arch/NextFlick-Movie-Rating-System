@@ -107,7 +107,10 @@ python app.py
 * Movie Details Page
 * Edit Rating Page
 
+# Summary
+NextFlick is a web-based movie rating platform that allows users to discover, explore, and rate movies through an intuitive and user-friendly interface. The application provides movie details such as posters, genres, release dates, ratings, and descriptions, helping users make informed decisions about what to watch.
 
+The project focuses on delivering a seamless browsing experience while demonstrating core web development concepts, including responsive design, dynamic content display, and efficient data management. Users can search for movies, view detailed information, and submit ratings to share their opinions.
 
  # Author
 Aditi Kate
