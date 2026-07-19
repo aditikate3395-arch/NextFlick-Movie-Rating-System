@@ -6,7 +6,7 @@ The project demonstrates full-stack development fundamentals using Flask, SQLite
 
 
 
- ✨ Features
+# Features
 
 * Add new movies with ratings and genres
 * Upload and display movie posters
@@ -20,7 +20,7 @@ The project demonstrates full-stack development fundamentals using Flask, SQLite
 
 
 
- 🛠️ Technologies Used
+ # Technologies Used
 
 * Python
 * Flask
@@ -31,7 +31,7 @@ The project demonstrates full-stack development fundamentals using Flask, SQLite
 
 
 
- 📂 Project Structure
+ # Project Structure
 
 
 NextFlick-Movie-Rating-System/
@@ -56,7 +56,7 @@ NextFlick-Movie-Rating-System/
 
 
 
- 🚀 Getting Started
+ # Getting Started
 
 ### 1. Clone the Repository
 
@@ -89,7 +89,7 @@ python app.py
 
 
 
- 🎯 Key Functionalities
+ # Key Functionalities
 
 * Movie Management
 * Rating System
@@ -101,7 +101,7 @@ python app.py
 
 
 
- 📸 Screenshots
+ # Screenshots
 * Home Page
 * Movie List Page
 * Movie Details Page
@@ -109,6 +109,6 @@ python app.py
 
 
 
- 👩‍💻 Author
+ # Author
 Aditi Kate
 
