@@ -1,4 +1,4 @@
- 🎬 NextFlick – Movie Rating System
+ # NextFlick – Movie Rating System
 
 NextFlick is a Flask-based web application that allows users to discover, rate, manage, and track their favorite movies through an interactive and user-friendly interface.
 
